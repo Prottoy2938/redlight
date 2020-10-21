@@ -2,7 +2,7 @@ import Container from "./container";
 import { DEFAULT_URL, DEFAULT_GITHUB_URL } from "../lib/constants";
 import PostType from "../types/post";
 type Props = {
-  post: PostType;
+  post?: PostType;
 };
 
 const Footer = ({ post }: Props) => {

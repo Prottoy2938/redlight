@@ -6,7 +6,7 @@ import PostType from "../types/post";
 type Props = {
   preview?: boolean;
   children: React.ReactNode;
-  post: PostType;
+  post?: PostType;
 };
 
 const Layout = ({ preview, children, post }: Props) => {
