@@ -1,23 +1,26 @@
-import Alert from './alert'
-import Footer from './footer'
-import Meta from './meta'
+import Alert from "./alert";
+import Footer from "./footer";
+import Meta from "./meta";
+import PostType from "../types/post";
 
 type Props = {
-  preview?: boolean
-  children: React.ReactNode
-}
+  preview?: boolean;
+  children: React.ReactNode;
+  post: PostType;
+};
 
-const Layout = ({ preview, children }: Props) => {
+const Layout = ({ preview, children, post }: Props) => {
   return (
     <>
       <Meta />
       <div className="min-h-screen">
-        <Alert preview={preview} />
+        {preview && <Alert preview={preview} />}
+
         <main>{children}</main>
       </div>
-      <Footer />
+      <Footer post={post} />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
