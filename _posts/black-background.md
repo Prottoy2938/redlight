@@ -22,4 +22,4 @@ It also has a header titled **Black Background**, but since the text color is al
 <li>Testing device screen</li>
 <li>Situations where you want to/ have to stare at a something black screen.</li>
 
-Press the `f11` or `ctrl`+`cmd`+`f` bar if you want it to be fullscreen.
+Press the `f11`(windows) or `ctrl`+`cmd`+`f`(mac) if you want it to be fullscreen.
