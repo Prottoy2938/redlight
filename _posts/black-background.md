@@ -1,7 +1,7 @@
 ---
 title: "Black Background"
-excerpt: "A web application which's background is Black"
-metaDescription: "Blog about a web application which's background is Black"
+excerpt: "About a web application that has a black background"
+metaDescription: "About a web application that has a black background"
 coverImage: "/assets/blog/black-background/black-image.jpg"
 date: "2037-10-21T05:35:07.322Z"
 author:
@@ -13,15 +13,13 @@ url: "https://black.edrini.xyz/"
 github: "https://github.com/Prottoy2938/black-screen"
 ---
 
-A web application which's background is black. It's `body` background color is set to `#000`.
+A web application that has a black background. It's `body` background color is set to `#000`.
 
 It also has a header titled **Black Background**, but since the text color is also black, the user can't see it.
 
-## Possible Use
+### Possible Use
 
-- Testing device screen
-- Situations where you want to/ have to stare at a something black screen.
+<li>Testing device screen</li>
+<li>Situations where you want to/ have to stare at a something black screen.</li>
 
-Press the `space` bar if you want it to be fullscreen.
-
-Theres also application which's background is white, visit it [here](https://white.edrini.xyz/).
+Press the `f11` or `ctrl`+`cmd`+`f` bar if you want it to be fullscreen.
