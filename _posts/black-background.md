@@ -25,3 +25,5 @@ It also has a header titled **Black Background**, but since the text color is al
 <br/>
 
 Press the `f11`(windows) or `ctrl`+`cmd`+`f`(mac) if you want it to be fullscreen.
+
+If you want to take a screenshot of this page (or any web page), follow this [article](https://www.businessinsider.com/how-to-screenshot-on-google-chrome).
