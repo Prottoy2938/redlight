@@ -15,12 +15,12 @@ github: "https://github.com/Prottoy2938/black-screen"
 
 A web application that has a black background. It's `body` background color is set to `#000`.
 
-It also has a header titled **Black Background**, but since the text color is also black, the user can't see it.
+It also has a header titled **Black Background**, but since the text color is also black, its invisible.
 
 ### Possible Use
 
 <li>Testing device screen</li>
-<li>Situations where you want to/ have to stare at a something black screen.</li>
+<li>Situations where you want to/ have to stare at a black screen.</li>
 
 <br/>
 
