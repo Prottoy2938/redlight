@@ -35,6 +35,10 @@ const Post = ({ post, morePosts, preview }: Props) => {
               <Head>
                 <title>{post.title} | Edrini</title>
                 <meta name="description" content={post.metaDescription}></meta>
+                <meta
+                  name="og:description"
+                  content={post.metaDescription}
+                ></meta>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
