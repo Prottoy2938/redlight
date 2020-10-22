@@ -5,7 +5,7 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
+import { HOME_OG_IMAGE_URL } from "../lib/constants";
 import Post from "../types/post";
 
 type Props = {
@@ -20,6 +20,9 @@ const Index = ({ allPosts }: Props) => {
       <Layout>
         <Head>
           <title>Blog - Edrini</title>
+          <meta name="description" content="Edrini Project Blog" />
+          <meta name="og:description" content="Edrini Project Blog" />
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <Intro />
