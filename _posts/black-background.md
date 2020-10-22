@@ -15,7 +15,7 @@ github: "https://github.com/Prottoy2938/black-screen"
 
 A web application that has a black background. It's `body` background color is set to `#000`.
 
-It also has a header titled **Black Background**, but since the text color is also black, its invisible.
+It also has a header, titled **Black Background**, but since the text color is also black, its nearly invisible.
 
 ### Possible Use
 
