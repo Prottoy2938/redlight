@@ -22,19 +22,23 @@ To encode content, it has two options. They are:
 <li>Substitution Cipher</li>
 <li>AES Encryption Cipher</li>
 
-#### Substitution Cipher
+### Substitution Cipher
 
-[Substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher "substitution cipher wikipedia") is a encryption system where plain texts are replaced by cipher text. This application uses a low level version of this encryption system, where the each letters of the text are replaced by its _n-step_ forward or backward letter.
+[Substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher "substitution cipher wikipedia") is a encryption system where plain texts are replaced by cipher text. This application uses a low level version of this encryption system, where the each letter of the content are replaced by its _n-step_ forward or backward letter.
 
-For example, if you set the substitute letter position is in `5`, then for the letter _`a`_ it would be replaced by the letter _`e`_, and for the letter _`b`_ it would be replaced by the letter _`f`_ and the pattern will continue on all letters respectively.
+For example, if you set the substitute letter position is in `5`, then for the letter _`a`_ it would be replaced by the letter _`e`_, and for the letter _`b`_ it would be replaced by the letter _`f`_ and the pattern will continue on all letters respectively. Note that currently it only supports substituting English letters.
 
-The algorithm that does this:
+### Key Encryption
+
+To encrypt content using a key, it uses **[`AES`](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard "AES algorithm wikipedia")** encryption system. To use this encryption, you have to provide a key which will be used to both encrypt and decrypt the content.
+
+If you're using this encryption, then don't forget to save the key since you would need it to decrypt the content.
 
 ## Decoding
 
 ## How its Build
 
-This application is build using **Reactjs** and **TypeScript**. It uses **Chakra-UI** for most of it's UI components. And the application is hosted on **Vercel**.
+This application is build using **Reactjs** and **TypeScript**. It uses **Chakra-UI** for most of it's UI components. And the application is deployed on **Vercel**.
 
 To handle the letter substitution process, it uses this [algorithm](https://gist.github.com/Prottoy2938/9e1487b8ce10609b62db64732b23f943 "view algorithm on GitHub Gist").
 
@@ -171,13 +175,15 @@ It uses [crypto-js](https://www.npmjs.com/package/crypto-js "crypto-js on npm") 
 
 ## Privacy and Security
 
-All processes (including the encryption algorithms) runs in the browser. Saved keys stays in the [browser storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage "MDN localStorage doc").
+All processes (including the encryption algorithms) runs in the browser. Saved keys stays in the [browser local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage "MDN localStorage doc").
 
 Nothing is sent to the server. In fact, this application is a serverless application.
 
 ## Additional Features
 
 ### Saving key to browser
+
+You can save your key on the browser local storage. This is particularly useful when you are using the same key multiple times
 
 ### Secure Key Generation
 
