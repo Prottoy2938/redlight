@@ -1,5 +1,4 @@
 ---
-
 title: "Cipher Delta"
 excerpt: "About a web application that helps encode and decode plain content"
 metaDescription: "About a web application that helps encode and decode plain content"
@@ -10,9 +9,7 @@ name: Prottay
 picture: "/assets/blog/authors/svesp.jpg"
 ogImage:
 url: "https://cipher-delta.edrini.xyz/logo-img-1200.png"
-url: "https://cipher-delta.edrini.xyz/"
 github: ""
-
 ---
 
 > Cipher Delta web application that helps encode and decode plain content.
