@@ -8,7 +8,7 @@ author:
 name: Prottay
 picture: "/assets/blog/authors/svesp.jpg"
 ogImage:
-url: "https://cipher-delta.edrini.xyz/logo-img-1200.png"
+  url: "https://cipher-delta.edrini.xyz/logo-img-1200.png"
 github: ""
 ---
 
