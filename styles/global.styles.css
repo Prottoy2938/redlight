@@ -1,0 +1,9 @@
+.code-container table tr:nth-child(2n) {
+  background-color: initial;
+  border: none;
+}
+
+.code-container table tr {
+  background-color: initial;
+  border: none;
+}
