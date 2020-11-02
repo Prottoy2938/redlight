@@ -15,11 +15,171 @@ github: ""
 
 > Cipher Delta web application that helps encode and decode plain content.
 
-### How its Build
+## Encoding
 
-### Additional Features
+To encode content, it has two options. They are:
 
-> Secure Key Generation
+<li>Substitution Cipher</li>
+<li>AES Encryption Cipher</li>
+
+#### Substitution Cipher
+
+[Substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher "substitution cipher wikipedia") is a encryption system where plain texts are replaced by cipher text. This application uses a low level version of this encryption system, where the each letters of the text are replaced by its _n-step_ forward or backward letter.
+
+For example, if you set the substitute letter position is in `5`, then for the letter _`a`_ it would be replaced by the letter _`e`_, and for the letter _`b`_ it would be replaced by the letter _`f`_ and the pattern will continue on all letters respectively.
+
+The algorithm that does this:
+
+## Decoding
+
+## How its Build
+
+This application is build using **Reactjs** and **TypeScript**. It uses **Chakra-UI** for most of it's UI components. And the application is hosted on **Vercel**.
+
+To handle the letter substitution process, it uses this [algorithm](https://gist.github.com/Prottoy2938/9e1487b8ce10609b62db64732b23f943 "view algorithm on GitHub Gist").
+
+<details>
+  <summary>view code</summary>
+  
+```javascript
+function reverse(s) {
+    return s.split("").reverse().join("");
+}
+const engAlphabets = "abcdefghijklmnopqrstuvwxyz".repeat(3);
+const reverseEngAlphabets = reverse("abcdefghijklmnopqrstuvwxyz").repeat(3);
+const engAlIndexes = {
+    a: 0,
+    b: 1,
+    c: 2,
+    d: 3,
+    e: 4,
+    f: 5,
+    g: 6,
+    h: 7,
+    i: 8,
+    j: 9,
+    k: 10,
+    l: 11,
+    m: 12,
+    n: 13,
+    o: 14,
+    p: 15,
+    q: 16,
+    r: 17,
+    s: 18,
+    t: 19,
+    u: 20,
+    v: 21,
+    w: 22,
+    x: 23,
+    y: 24,
+    z: 25,
+};
+const revEngAlIndexes = {
+    z: 0,
+    y: 1,
+    x: 2,
+    w: 3,
+    v: 4,
+    u: 5,
+    t: 6,
+    s: 7,
+    r: 8,
+    q: 9,
+    p: 10,
+    o: 11,
+    n: 12,
+    m: 13,
+    l: 14,
+    k: 15,
+    j: 16,
+    i: 17,
+    h: 18,
+    g: 19,
+    f: 20,
+    e: 21,
+    d: 22,
+    c: 23,
+    b: 24,
+    a: 25,
+};
+//string reverse if negative number
+/**
+ * Returns substituted cipher version
+ *
+ * @remarks
+ * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
+ *
+ * @param content - The content you want to wrap
+ * @param y - How many words you want to skip, default 1
+ * @returns returns the cipher
+ *
+ * @beta
+ */
+const substituteContent = (userContent, skip = 1) => {
+    let substitutedContent = "";
+    for (let i = 0; i < userContent.length; i++) {
+        const char = userContent[i];
+        //if user wants to skip forward
+        if (skip >= 0) {
+            //finding the char index on the list
+            const charIndex = engAlIndexes[char.toLowerCase()];
+            if (charIndex >= 0) {
+                //if the user word is uppercase, keeping the letter casing
+                if (char === char.toUpperCase()) {
+                    //if user wants to skip forward
+                    substitutedContent = `${substitutedContent}${engAlphabets[charIndex + skip].toUpperCase()}`;
+                }
+                //if the user word is lowercase
+                else {
+                    substitutedContent = `${substitutedContent}${engAlphabets[charIndex + skip]}`;
+                }
+            }
+            //if the char doesn't exists in the alphabet list
+            else {
+                substitutedContent = `${substitutedContent}${char}`;
+            }
+        }
+        //if user wants to skip backward
+        else if (skip >= -25) {
+            //finding the char index on the list
+            const charIndex = revEngAlIndexes[char.toLowerCase()];
+            if (charIndex >= 0) {
+                //if the user word is uppercase, keeping the letter casing
+                if (char === char.toUpperCase()) {
+                    //if user wants to skip forward
+                    substitutedContent = `${substitutedContent}${reverseEngAlphabets[charIndex + Math.abs(skip)].toUpperCase()}`;
+                }
+                //if the user word is lowercased
+                else {
+                    substitutedContent = `${substitutedContent}${reverseEngAlphabets[charIndex + Math.abs(skip)]}`;
+                }
+            }
+            //if the char doesn't exists in the alphabet list
+            else {
+                substitutedContent = `${substitutedContent}${char}`;
+            }
+        }
+    }
+    return substitutedContent;
+};
+```
+
+</details>
+
+It uses [crypto-js](https://www.npmjs.com/package/crypto-js "crypto-js on npm") package to handle the **`AES`** encryption and description functionality.
+
+## Privacy and Security
+
+All processes (including the encryption algorithms) runs in the browser. Saved keys stays in the [browser storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage "MDN localStorage doc").
+
+Nothing is sent to the server. In fact, this application is a serverless application.
+
+## Additional Features
+
+### Saving key to browser
+
+### Secure Key Generation
 
 If you want to get a secure key, you can generate it from the app.
 
@@ -29,8 +189,10 @@ Or you can just click the `*` button under the encryption input field, this will
 
 The code that used to generate this key was taken from from this [stackoverflow](https://stackoverflow.com/a/1349426/12966479) answer.
 
+![generate random key code](/assets/blog/cipher-delta/key-enc-algo.jpg)
+
 <details>
-  <summary>view code</summary>
+  <summary>code</summary>
   
 ```javascript
 function makeId(length) {
@@ -47,8 +209,14 @@ function makeId(length) {
 
 </details>
 
-> Dark Mode
+### Dark Mode
 
-To enable, go to -> `drawer` -> `appearance`.
+The application has two theme, **light (default)** and **dark**.
+
+To toggle theme, go to -> `drawer` -> `appearance`.
 
 Theme mode preference would be saved on the browser, so the next time you visit the app, it will have the same theme that you had selected.
+
+<br/>
+
+**Lastly**, if you have any feedback, have any feature request or want to have other encryption option, send [an email](svesp@protonmail.com "svesp@protonmail.com") about it.
