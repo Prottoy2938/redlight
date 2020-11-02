@@ -5,10 +5,11 @@ metaDescription: "About a web application that helps encode and decode plain con
 coverImage: "/assets/blog/cipher-delta/logo-img-1200.jpg"
 date: "2037-11-02T05:35:07.322Z"
 author:
-name: Prottay
-picture: "/assets/blog/authors/svesp.jpg"
+  name: Prottay
+  picture: "/assets/blog/authors/svesp.jpg"
 ogImage:
   url: "https://cipher-delta.edrini.xyz/logo-img-1200.png"
+url: "https://cipher-delta.edrini.xyz/"
 github: ""
 ---
 
@@ -18,11 +19,7 @@ github: ""
 
 ### Additional Features
 
-<div className="mt-10"> </div>
-
-> <div class="text-yellow-900">Secure Key Generation</div>
-
-<div className="mt-10"> </div>
+> Secure Key Generation
 
 If you want to get a secure key, you can generate it from the app.
 
@@ -32,11 +29,25 @@ Or you can just click the `*` button under the encryption input field, this will
 
 The code that used to generate this key was taken from from this [stackoverflow](https://stackoverflow.com/a/1349426/12966479) answer.
 
-<div className="mt-20"> </div>
+<details>
+  <summary>view code</summary>
+  
+```javascript
+function makeId(length) {
+  let result = "";
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const charactersLength = characters.length;
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+}
+```
 
-> <div class="text-purple-600">Dark Mode</div>
+</details>
 
-<div className="mt-10"> </div>
+> Dark Mode
 
 To enable, go to -> `drawer` -> `appearance`.
 
