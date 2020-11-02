@@ -3,7 +3,7 @@ title: "Black Background"
 excerpt: "About a web application that has a black background"
 metaDescription: "About a web application that has a black background"
 coverImage: "/assets/blog/black-background/black-image.jpg"
-date: "2037-10-21T05:35:07.322Z"
+date: "2037-10-01T05:35:07.322Z"
 author:
   name: Prottay
   picture: "/assets/blog/authors/svesp.jpg"

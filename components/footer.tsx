@@ -22,12 +22,14 @@ const Footer = ({ post }: Props) => {
                 >
                   Visit
                 </a>
-                <a
-                  href={post.github}
-                  className="mx-3 font-bold hover:underline"
-                >
-                  View on GitHub
-                </a>
+                {post.github && (
+                  <a
+                    href={post.github}
+                    className="mx-3 font-bold hover:underline"
+                  >
+                    View on GitHub
+                  </a>
+                )}
               </div>
             </>
           ) : (
