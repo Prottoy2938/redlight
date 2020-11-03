@@ -246,4 +246,4 @@ Theme mode preference would be saved on the browser, so the next time you visit 
 
 ![tree image](https://cipher-delta.edrini.xyz/tree.svg)
 
-**Lastly**, if you have any feedback, have any feature request, facing issues or want to have other encryption option, send [an email](svesp@protonmail.com "svesp@protonmail.com") about it.
+**Lastly**, if you have any feedback, have any feature request, facing issues or want to have other encryption option, send [an email](mailto:svesp@protonmail.com "svesp@protonmail.com") about it.
