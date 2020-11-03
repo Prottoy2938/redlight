@@ -1,5 +1,9 @@
 import Container from "./container";
-import { DEFAULT_URL, DEFAULT_GITHUB_URL } from "../lib/constants";
+import {
+  DEFAULT_URL,
+  DEFAULT_GITHUB_URL,
+  DEFAULT_FOOTER_APP,
+} from "../lib/constants";
 import PostType from "../types/post";
 type Props = {
   post?: PostType;
@@ -36,7 +40,7 @@ const Footer = ({ post }: Props) => {
             <>
               {/* Default homepage footer */}
               <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-                Black Background
+                {DEFAULT_FOOTER_APP}
               </h3>
 
               <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
@@ -46,12 +50,14 @@ const Footer = ({ post }: Props) => {
                 >
                   Visit
                 </a>
-                <a
-                  href={DEFAULT_GITHUB_URL}
-                  className="mx-3 font-bold hover:underline"
-                >
-                  View on GitHub
-                </a>
+                {DEFAULT_GITHUB_URL && (
+                  <a
+                    href={DEFAULT_GITHUB_URL}
+                    className="mx-3 font-bold hover:underline"
+                  >
+                    View on GitHub
+                  </a>
+                )}
               </div>
             </>
           )}
