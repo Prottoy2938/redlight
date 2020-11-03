@@ -19,12 +19,12 @@ github: ""
 
 To encode content, it has two options. These are:
 
-<li>Substitution Cipher (default)</li>
+<li>Monoalphabetic Cipher (default)</li>
 <li>AES Encryption Cipher</li>
 
 ### Substitution Cipher
 
-[Substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher "substitution cipher wikipedia") is a encryption system where plain texts are replaced by cipher text. This application uses a low level version of this encryption system, where the each letter of the content are replaced by its _n-step_ forward or backward letter.
+Currently this application supports _[monoalphabetic cipher](https://www.geeksforgeeks.org/difference-between-monoalphabetic-cipher-and-polyalphabetic-cipher/ "monoalphabetic cipher geeksforgeeks")_. A monoalphabetic cipher is any cipher in which the letters of the plain text are mapped to cipher text letters based on a single alphabetic key.
 
 For example, if you set the substitute letter position is in `5`, then for the letter _`a`_ it would be replaced by the letter _`e`_, and for the letter _`b`_ it would be replaced by the letter _`f`_ and the pattern will continue on all letters respectively.
 
@@ -40,18 +40,18 @@ If you're using this encryption, then don't forget to save the key since you wou
 
 To decode content, it has two options:
 
-<li>Substitution Cipher Decryption</li>
+<li>Monoalphabetic Cipher Decryption</li>
 <li>AES Decryption</li>
 
-### Decoding Substitution Cipher
+### Decoding Monoalphabetic Cipher
 
-To decode a substitution cipher, you have to paste the content and set the substitution letter position. If they are correct, it will show you the decoded content.
+To decode a monoalphabetic cipher, you have to paste the content and set the monoalphabetic letter position/ key. If they are correct, it will show you the decoded content.
 
 ### AES Decryption
 
 To decode AES encrypted content, you have to paste in the content and provide the key. If the credentials are correct, then it will show you the decrypted content.
 
-Note that, often the encrypted content might be encrypted in both Substitution Cipher and AES encryption. When decrypting this kind of content, you need to set both the substitute letter position and the AES encryption position correctly.
+Note that, often the encrypted content might be encrypted in both monoalphabetic cipher and AES encryption. When decrypting this kind of content, you need to set both the substitute letter position and the AES encryption position correctly.
 
 ## How its Build
 
