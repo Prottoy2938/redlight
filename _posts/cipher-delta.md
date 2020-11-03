@@ -13,11 +13,11 @@ url: "https://cipher-delta.edrini.xyz/"
 github: ""
 ---
 
-> Cipher Delta web application that helps encode and decode plain content.
+> Cipher Delta is web application that helps encode and decode plain content.
 
 ## Encoding
 
-To encode content, it has two options. They are:
+To encode content, it has two options. These are:
 
 <li>Substitution Cipher (default)</li>
 <li>AES Encryption Cipher</li>
@@ -200,7 +200,9 @@ Nothing is sent to the server. In fact, this application is a serverless applica
 
 ### Saving key to browser
 
-You can save your key on the browser local storage. This is particularly useful when you are using the same key multiple times
+You can save your key on the browser local storage. This is particularly useful when you are using the same key multiple times.
+
+To use the saved key, click on the dropdown button right next to the _use_ button, and select **use saved key**. It will get the saved key from the browser and apply it.
 
 ### Secure Key Generation
 
@@ -210,7 +212,7 @@ To generate a secure key, can go to `drawer` -> `Secure Encryption Key`, and the
 
 Or you can just click the `*` button under the encryption input field, this will generate a new key and also apply it.
 
-The code that used to generate this key was taken from from this [stackoverflow](https://stackoverflow.com/a/1349426/12966479) answer.
+The code that used to generate these keys was taken from from this [stackoverflow](https://stackoverflow.com/a/1349426/12966479) answer.
 
 ![generate random key code](/assets/blog/cipher-delta/key-enc-algo.jpg)
 
