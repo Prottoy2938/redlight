@@ -10,7 +10,7 @@ author:
 ogImage:
   url: "https://cipher-delta.edrini.xyz/logo-img-1200.png"
 url: "https://cipher-delta.edrini.xyz/"
-github: ""
+github: "https://github.com/Prottoy2938/cipher-delta"
 ---
 
 > Cipher Delta is web application that helps encode and decode plain content.
