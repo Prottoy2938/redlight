@@ -1,7 +1,7 @@
 ---
 title: "A Online Tool to Change SVG Color Using CSS"
-excerpt: "About a web application that can change color of an SVG using CSS filter"
-metaDescription: "About a web application that can change color of an SVG using CSS filter"
+excerpt: "About a web application that can change color the of an SVG using CSS filter"
+metaDescription: "About a web application that can change the color of an SVG using CSS filter"
 coverImage: "/assets/blog/change-svg-color/logo-1200.jpg"
 date: "2037-11-06T05:35:07.322Z"
 author:
@@ -25,7 +25,7 @@ Also, keep in mind the `loss` number, which indicates if the color would work as
 
 ## How it works
 
-When you select a color from the color picker, it takes the `rgb` version of that color and runs this [algorithm](https://gist.github.com/Prottoy2938/7ff636330f2eec9bfeee56a49d6471e4 "view the algorithm on GitHub Gist").
+When you select a color from the color picker, it takes the `rgb` version of that color and runs this [algorithm](https://gist.github.com/Prottoy2938/7ff636330f2eec9bfeee56a49d6471e4 "view the algorithm on GitHub Gist"). The algorithm was taken from [this stackoverflow answer](https://stackoverflow.com/a/43960991/604861 "view the answer").
 
 The algorithm returns the CSS `filter` of that color, the application takes the color, updates the `filter` outcome value and updates the preview svg color using that filter value.
 
