@@ -1,5 +1,5 @@
 ---
-title: "A Online Tool to Change SVG Color Using CSS"
+title: "An Online Tool to Change SVG Color Using CSS"
 excerpt: "About a web application that can change color the of an SVG using CSS filter"
 metaDescription: "About a web application that can change the color of an SVG using CSS filter"
 coverImage: "/assets/blog/change-svg-color/logo-1200.jpg"
