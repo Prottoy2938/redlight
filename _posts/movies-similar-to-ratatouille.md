@@ -1,22 +1,22 @@
 ---
 title: "Movies That Are Similar to Ratatouille"
-excerpt: "About a web application that helps encode and decode plain content"
-metaDescription: "About a web application that helps encode and decode plain content"
-coverImage: "/assets/blog/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg"
+excerpt: "These movies are Burnt (2015), Chef (2014), Soul (2020), Monster University (2013), Up (2009) etc. More info ..."
+metaDescription: "These movies are Burnt (2015), Chef (2014), Soul (2020), Monster University (2013), Up (2009) etc. More info ..."
+coverImage: "/assets/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg"
 date: "2021-02-02T05:35:07.322Z"
 author:
   name: Prottay
   picture: "/assets/blog/authors/svesp.jpg"
 ogImage:
-  url: "https://redlight.edrini.xyz/assets/blog/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg"
+  url: "https://redlight.edrini.xyz/assets/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg"
 url: "https://redlight.edrini.xyz/"
 ---
 
-> Cipher Delta is web application that helps encode and decode plain content.
+> These movies are Burnt (2015), Chef (2014), Soul (2020), Monster University (2013), Up (2009) etc. More info ...
 
 # Ratatouille
 
-![Ratatoulle Cover Image](https://redlight.edrini.xyz/assets/blog/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg)
+![Ratatoulle Cover Image](https://redlight.edrini.xyz/assets/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg)
 
 The journey of a rat Rimy becoming a chef in one of the top restuarant in Paris.
 
