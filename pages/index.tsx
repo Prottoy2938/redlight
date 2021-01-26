@@ -19,9 +19,9 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Blog - Edrini</title>
-          <meta name="description" content="Edrini Project Blog" />
-          <meta name="og:description" content="Edrini Project Blog" />
+          <title>Redlight</title>
+          <meta name="description" content="Redlight" />
+          <meta name="og:description" content="Redlight" />
           <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>

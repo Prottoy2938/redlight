@@ -1,3 +1,3 @@
-# Blog - Edrini Project
+# Website Where I Publish Different Contents that Comes to Mind
 
-**[Visit](https://blog.edrini.xyz/)**
+**[Visit](https://redlight.edrini.xyz/)**
