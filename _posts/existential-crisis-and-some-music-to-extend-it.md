@@ -2,7 +2,7 @@
 title: " Existential Crisis and Some Musics to Extend it"
 excerpt: "Mosquitos are having a concert"
 metaDescription: "Mosquitos are having a concert"
-coverImage: "/assets/blog/movies-similar-to-ratatouille/ratatouille-cover.jpg"
+coverImage: "https://redlight.vercel.app/assets/blog/existential-crisis-and-some-music-to-extend-it/theme.jpg"
 date: "2021-12-02T05:35:07.322Z"
 author:
   name: Svesp
@@ -11,6 +11,12 @@ ogImage:
   url: "https://redlight.vercel.app/assets/blog/existential-crisis-and-some-music-to-extend-it/theme.jpg"
 url: "https://redlight.vercel.app/posts/existential-crisis-and-some-music-to-extend-it"
 ---
+
+<br />
+
+> Thinking about your existence? Why are you in this universe? What's your purpose?
+
+<br />
 
 # Existential Crisis and Some Musics to Extend it
 
@@ -35,6 +41,8 @@ I don't have a solid answer. But heres some ways I've seen which brings up this 
 
 Maybe try out this [video](https://www.youtube.com/watch?v=v3y8AIEX_dU).
 
+<br />
+
 ## Extending Existential Crisis
 
 Heres some music that might help some of you enjoying the existential crisis.
@@ -42,13 +50,15 @@ Heres some music that might help some of you enjoying the existential crisis.
 - [Lights of the Seven](https://www.youtube.com/watch?v=pS-gbqbVd8c)
 - [Interstellar Soundtrack by Hans Zimmer](https://www.youtube.com/watch?v=UDVtMYqUAyw)
 
-- <audio controls autoplay>
+- <audio controls >
      <source src="/assets/blog/existential-crisis-and-some-music-to-extend-it/audio.mp3" type="audio/ogg">
      <source src="/assets/blog/existential-crisis-and-some-music-to-extend-it/audio.mp3" type="audio/mpeg">
    Your browser does not support the audio element.
    </audio>
 
 \*audio-track from [here](https://www.youtube.com/watch?v=aVMkvCTT_yg)
+
+<br />
 
 ## Getting out of It
 
