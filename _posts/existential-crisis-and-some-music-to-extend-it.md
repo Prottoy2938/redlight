@@ -12,10 +12,6 @@ ogImage:
 url: "https://redlight.vercel.app/posts/existential-crisis-and-some-music-to-extend-it"
 ---
 
-blog\existential-crisis-and-some-music-to-extend-it
-
-> Mosquitos are having a concert
-
 # Existential Crisis and Some Musics to Extend it
 
 Thinking about your existence? Why are you in this universe? What's your purpose?
@@ -30,7 +26,7 @@ Do We enter a new dimension during this typeof thoughts? Don't know. Do we becom
 
 People tend to be alone when they reach this state.
 
-## Bringing Up Existential Crisis
+## Bringing it Up
 
 Why and Where does this feeling comes from?
 I don't have a solid answer. But heres some ways I've seen which brings up this kinda thoughts.
@@ -45,7 +41,14 @@ Heres some music that might help some of you enjoying the existential crisis.
 
 - [Lights of the Seven](https://www.youtube.com/watch?v=pS-gbqbVd8c)
 - [Interstellar Soundtrack by Hans Zimmer](https://www.youtube.com/watch?v=UDVtMYqUAyw)
-- [Water - Ludwig Göransson](https://youtu.be/aVMkvCTT_yg?t=1137) \*timestamp included
+
+- <audio controls autoplay>
+     <source src="/assets/blog/existential-crisis-and-some-music-to-extend-it/audio.mp3" type="audio/ogg">
+     <source src="/assets/blog/existential-crisis-and-some-music-to-extend-it/audio.mp3" type="audio/mpeg">
+   Your browser does not support the audio element.
+   </audio>
+
+\*audio-track from [here](https://www.youtube.com/watch?v=aVMkvCTT_yg)
 
 ## Getting out of It
 

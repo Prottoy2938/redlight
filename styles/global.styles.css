@@ -7,3 +7,7 @@
   background-color: initial;
   border: none;
 }
+
+div li {
+  list-style: disc;
+}
