@@ -3,7 +3,7 @@ title: " Existential Crisis and Some Musics to Extend it"
 excerpt: "Mosquitos are having a concert"
 metaDescription: "Mosquitos are having a concert"
 coverImage: "https://redlight.vercel.app/assets/blog/existential-crisis-and-some-music-to-extend-it/theme.jpg"
-date: "2021-12-02T05:35:07.322Z"
+date: "2021-02-12T05:35:07.322Z"
 author:
   name: Svesp
   picture: "/assets/blog/authors/svesp.jpg"
