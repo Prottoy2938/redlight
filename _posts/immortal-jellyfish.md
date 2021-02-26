@@ -41,12 +41,25 @@ For hundreds of years, people thought aging was inevitable. It effects every liv
 <h1 class="text-4xl mt-8">What is Turritopsis dohrnii?</h1>
 <!-- # what species, scientific name and common name
 # when it was first appeared, whats its origin -->
-Turritopsis dohrnii is a species of jellyfish which is about 3-4.5 millimeters in size. It's also known as the immortal jellyfish. It was first discovered in Mediterranean Sea back in 1883. 
--The Turritopsis dohrnii was discovered in the Mediterranean Sea in 1883.
+Turritopsis dohrnii is a species of jellyfish which is about 3-4.5 millimeters in size. It was first discovered in Mediterranean Sea back in 1883. People also know it as the immortal jellyfish.
 
 <iframe width="100%" height="400"
 src="https://www.youtube.com/embed/5KXuDMd0J80">
 </iframe>
+
+### It's taxonomy
+
+<!--styling: In a table -->
+
+- **Species**: dohrnii
+- **Genus**: Turritopsis
+- **Family**: Oceaniidae
+- **Suborder**: Filifera
+- **Order**: Anthoathecatae
+- **Subclass**: Hydroidolina
+- **Class**: Hydrozoa
+- **Phylum**: Cnidaria
+- **Kingdom**: Animalia
 
 ## Life Cycle
 
@@ -54,11 +67,28 @@ src="https://www.youtube.com/embed/5KXuDMd0J80">
 
 ## Biological immortality
 
-- Thought Turritopsis dohrnii was discovered in the 1883, its unique ability was not discovered until the 1990s.
+- Even Though Turritopsis dohrnii was discovered in the 1883, its unique ability was not discovered until the 1990s.
+
+Turritopsis dohrnii aka immortal jellyfish is on the Hydrozoa class in the taxonomy. If we want to know why and how they get this biological immortality, then first we need to talk about the typical hydrozoa lifecycle.
+
+Typical lifecycle of a hydrozoa:
+<img src="/assets/blog/immortal-jellyfish/life-cycle-of-a-hydozoa.jpg" alt="lifecycle of a hydozoa" >
+
+Lifecycle of a Turritopsis dohrnii:
+<img src="/assets/blog/immortal-jellyfish/life-cycle-of-an-immortal-jellyfish.jpg" alt="life-cycle-of-an-immortal-jellyfish">
+
+This process was first discovered by ....
+Heres a good articles from the <a href="https://www.rsb.org.uk/biologist-features/everlasting-life-the-immortal-jellyfish" target="_blank" rel="noopener noreferrer">Royal Science of Biology</a> that goes into more depth of this.
+
 - similar living beings that can live immortally
+
 - A good in-depth articles about this <a href="https://www.rsb.org.uk/biologist-features/everlasting-life-the-immortal-jellyfish" target="_blank" rel="noopener noreferrer">here</a>
 
 ## Reproductive system
+
+## Other Animals that be also be immortal
+
+## How can this be useful to us
 
 <!-- This process is a part of nature. -->
 
